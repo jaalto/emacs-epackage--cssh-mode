@@ -22,7 +22,7 @@ Compat:
 Maintainer: Jari Aalto <jari.aalto@cante.net>
 Bugs:
 Upstream: Dimitri Fontaine <dim@tapoueh.org>
-Upstream-Bugs:
+Upstream-Bugs: https://github.com/dimitri/cssh/issues
 Vcs-Type: git
 Vcs-Url: git://github.com/dimitri/cssh.git
 Vcs-Browser: https://github.com/dimitri/cssh
