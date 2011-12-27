@@ -1,0 +1,43 @@
+Package: cssh-mode
+Section: extensions
+License: Custom
+License-Text:
+ <http://sam.zoy.org/wtfpl>
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+ .
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ .
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+ .
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+Depends: emacs (>= 22)
+Status: stable unsafe
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Dimitri Fontaine <dim@tapoueh.org>
+Upstream-Bugs:
+Vcs-Type: git
+Vcs-Url: git://github.com/dimitri/cssh.git
+Vcs-Browser: https://github.com/dimitri/cssh
+Homepage
+X-Development:
+ Upstream personal homepage is at <http://tapoueh.org>.
+Wiki: http://www.emacswiki.org/emacs/ClusterSSH
+Commentary:
+Description: major mode for cssh(1) Cluster SSH command
+ Global key bindings to open ClusterSSH controler in cssh-mode on
+ term.el buffers. To activate default key bindings, call
+ M-x cssh-define-global-bindings which maps C-= key globally,
+ in ibuffer.
+ .
+ ClusterSSH (cssh, crsh, ctel) allows you to control multiple ssh, rsh or
+ telnet sessions from a single input window. You can also configure
+ clusters of machines for easy invocation and interact with individual
+ terminal windows during a session.
