@@ -1,0 +1,5 @@
+2011-12-27 Tue  Jari Aalto  <jari.aalto@cante.net>
+
+	* cssh.el (cssh-define-global-bindings): New.
+	Do not unconditionally define keys.
+
